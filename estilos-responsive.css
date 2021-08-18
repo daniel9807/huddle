@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1200px) { 
+    .img{
+        width: 80%;
+        float: none;
+        padding: 0px;
+        margin: 0 auto;
+    }
+    .contenedor{
+        justify-content: center;
+        text-align: center;
+        padding: 0px 30px;
+    }
+    .contenedor p{
+        margin: 20px auto;
+    }
+    footer{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 700px){
+    header .logo{
+        padding: 35px 20px;
+    }
+}

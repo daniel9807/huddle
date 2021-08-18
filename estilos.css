@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: hsl(257, 40%, 49%);
+  background-image: url("./img/bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: all 0.2s linear;
+}
+header .logo {
+  position: relative;
+  padding: 35px 90px;
+  max-height: 50px;
+}
+.img {
+  float: left;
+  padding-left: 90px;
+  padding-top: 5px;
+}
+.img img{
+  width: 100%;
+}
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 70px;
+  padding-top: 70px;
+  margin: 20px;
+}
+.contenedor h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.563rem;
+  color: #fff;
+  padding-bottom: 5px;
+}
+.contenedor p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contenedor a {
+  background: #fff;
+  color: hsl(257, 40%, 49%);
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  border-radius: 30px;
+  text-align: center;
+  padding: 15px 60px;
+  margin: 5px;
+  box-shadow: 0px 15px 10px -15px #111;
+  border: 30px;
+}
+
+.contenedor a:hover {
+  background: hsl(300, 69%, 71%);
+  color: #fff;
+}
+footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10%;
+  margin: 0 50px;
+}
+.iconos svg {
+  display: inline-block;
+  padding: 5px;
+  fill: #fff;
+}
+
+.iconos svg:hover {
+  fill: hsl(300, 69%, 71%);
+}
+
+@media screen {
+}
